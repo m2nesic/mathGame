@@ -8,7 +8,7 @@ keyPair::keyPair(){
 	fnName = "";
 }
 
-keyPair::keyPair(int newInt, int(*mysteryFn_)(int&), std::string newName){
+keyPair::keyPair(int newInt, int(*mysteryFn_)(int), std::string newName){
 	smallNum = newInt;
 	largeNum = mysteryFn_(newInt);
 	mysteryFn = mysteryFn_;
