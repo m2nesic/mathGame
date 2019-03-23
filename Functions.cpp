@@ -37,6 +37,11 @@ int function7(int var7)
 
 int function8(int var8)
 {
-	return (var8 * var8) + (2 * var8) + var8;		// x ^ 2 + 2x + 2			
+	return (var8 * var8) + (2 * var8) + 2;		// x ^ 2 + 2x + 2			
+}
+
+int function9(int var9)
+{
+	return (var9 * var9 * var9) - 2 * (var9 * var9);	//x^3 - 2(x^2)
 }
 

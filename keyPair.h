@@ -4,7 +4,7 @@
 #include <string>
 
 
-class keyPair {					//Class containing our starting int, goal, assigned function and name respectively
+class keyPair {					// Class containing our starting int, goal, assigned function and name respectively
 	int smallNum;
 	int largeNum;
 	int (*mysteryFn)(int);		// Pointer to a function
@@ -12,9 +12,10 @@ class keyPair {					//Class containing our starting int, goal, assigned function
 public:
 	keyPair();
 	keyPair(int newInt, int (*mysteryFn_)(int), std::string newName);
-	int getSmallNum();
+	int getSmallNum();			// Set of query functions.
 	int getLargeNum();
 	std::string getName();
+	int operator()(int input) { return mysteryFn(input); };		// Making the class a functor.
 };
 #endif
 

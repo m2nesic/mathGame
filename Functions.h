@@ -10,5 +10,6 @@ int function5(int var5);
 int function6(int var6);
 int function7(int var7);
 int function8(int var8);
+int function9(int var9);
 
 #endif // !Functions_
