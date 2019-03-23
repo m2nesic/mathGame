@@ -1,3 +1,4 @@
+/*Question class object*/
 #ifndef keyPair_
 #define keyPair_
 

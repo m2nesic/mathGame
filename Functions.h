@@ -1,3 +1,4 @@
+/*Set of functions to be used*/
 #ifndef Functions_
 #define Functions_
 
@@ -12,4 +13,4 @@ int function7(int var7);
 int function8(int var8);
 int function9(int var9);
 
-#endif // !Functions_
+#endif 

@@ -1,3 +1,4 @@
+/*Implementations of various functions*/
 #include "Functions.h"
 
 int function1(int var1)

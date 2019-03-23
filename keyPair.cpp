@@ -1,3 +1,4 @@
+/*Implementation of constructors and queries.*/
 #include "keyPair.h"
 #include<string>
 
